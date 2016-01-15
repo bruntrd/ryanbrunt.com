@@ -1,0 +1,209 @@
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.footerLinks {
+    display: inline-block;
+}
+footer {
+    border-top: solid 1px #b3b3b3;
+    border-bottom: solid 1px #b3b3b3;
+}
+#homeHeader {
+    background: url("photos/macandcoffee.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;;
+    height: 100vh;
+}
+#aboutHeader {
+    background: url("photos/curlingarena.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;;
+    height: 100vh;
+}
+#projectsHeader {
+    background: url("photos/projects.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;;
+    height: 100vh;
+}
+#contactHeader {
+    background: url("photos/minnisky.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;;
+    height: 100vh;
+}
+#resumeHeader {
+    background: url("photos/resumephoto.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;;
+    height: 100vh;
+}
+#toggleMenu{
+    background-color: #ffffff;
+}
+.navbar {
+    text-decoration-color: #ffffff;
+    color: #ffffff;
+}
+
+.fadeIn {
+    font-family: 'Lato', sans-serif;
+    padding-top:60px;
+    color: #ffffff;
+    animation: fadeIn 2s;
+    opacity:0;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+.intro {
+    font-family: 'Lato', sans-serif;
+    padding-top:60px;
+    color: #ffffff;
+    margin: 10px 0 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 30em;
+    opacity: 0;
+    animation: type 4s steps(65, end);
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+.navbar .nav > li > a {
+    float: none;
+    line-height: 19px;
+    padding: 9px 10px 11px;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    color:  #ffffff;
+}
+#overlflowContainer {
+    overlow: hidden;
+    white-space: nowrap;
+}
+
+.intro:nth-child(2){
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+.intro:nth-child(3){
+
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+}
+
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+@keyframes type{
+    from { width: 0; }
+    25% {opacity: 25}
+    50% {opacity: 50}
+    75% {opacity: 75}
+    100% {opacity:100}
+}
+
+#technologies{
+    padding-top:40px;
+    border-bottom: 1px solid #b3b3b3;
+}
+
+#education{
+    padding-top:7px;
+    border-bottom: 1px solid #b3b3b3;
+}
+#experience{
+     padding-top:7px;
+     border-bottom: 1px solid #b3b3b3;
+ }
+#message{
+    padding-top:30px;
+    padding-bottom: 30px;
+}
+
+#messageButton {
+    text-align: center;
+}
+.contact {
+    background-color: white;
+    color: #b3b3b3;
+    border: 1px solid black;
+}
+.ulTechnologies {
+    list-style: none;
+}
+.ulTechnologies li {
+    text-align: left;
+}
+.intro {
+}
+.resume {
+    font-family: 'Roboto Condensed light';
+    padding-bottom: 10px;
+    text-align: left;
+}
+.schools {
+    font-family: 'Roboto Condensed light';
+    text-align: left;
+}
+#technology{
+    font-family: 'Roboto Condensed light';
+}
+.resumeTech {
+    padding-bottom: 7px;
+}
+.footerLinks{
+
+}
+.footerLinks li {
+    display:inline;
+    /*color: #ffffff;*/
+}
+
+.divider{
+    padding-top:40px;
+    border-bottom: 1px solid #b3b3b3;
+}
+.aboutMe {
+    padding-top:10px;
+    text-align: center;
+}
+.slides{
+    height: 400px;
+    border-bottom: 1px solid #b3b3b3
+}
+.carousel{
+    margin:auto;
+    max-width: 300px;
+    height: 300px
+}
+#slides_control {
+    position: absolute;
+    width: 400px;
+    left:50%;
+    right:50%
+    top:20px;
+    margin-left:-200px;
+}
+.footerDiv {
+    bottom: 0px;
+}
+button:focus {outline:0;}
+

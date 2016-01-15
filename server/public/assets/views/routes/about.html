@@ -1,0 +1,87 @@
+<div id="aboutHeader" class="container-fluid">
+    <!--<nav class="navbar navbar-default">-->
+    <nav class="navbar">
+        <div class="container-fulid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#ryanNavbar" aria-label="Left Align">
+                    <span><img src="http://amazumedia.com/images/menu.png"/> </span>
+                </button>
+            </div>
+
+        </div>
+        <div class="collapse navbar-collapse" id="ryanNavbar">
+            <ul class="nav navbar-nav nav-tabs-justified">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col-sm-2">
+
+        </div>
+        <div class="col-sm-10">
+            <h1 class="fadeIn">About Ryan</h1>
+            <h3 class="fadeIn"><em>What I do, what I've done</em></h3>
+        </div>
+        <div class="col-sm-1">
+
+        </div>
+
+    </div>
+
+</div>
+<div class="divider row">
+    <div class="col-sm-2">
+
+    </div>
+    <div class="col-sm-8">
+        <h3 class="aboutMe">A few things about me</h3>
+        <p class="aboutMe">I migrated to Minneapolis a year or so ago after several stops in the Midwest.  I'm pretty into dark roast coffee and IPA's.
+        I play a certain Supercell game on my phone and spend way too much time doing it. I like to workout so I don't feel bad about eating less than
+        healthy food.  I'm left handed. I have an awesome nephew, Henry, and can't wait to buy him Star Wars Legos.</p>
+    </div>
+    <div class="col-sm-2">
+
+    </div>
+</div>
+<div class="row slides">
+    <div class="col-sm-2">
+
+    </div>
+    <div id="slides_control" class="col-sm-8">
+        <div>
+            <h3 class="aboutMe">Glimpse into my life</h3>
+                <carousel>
+                    <carousel interval="myInterval">
+                        <slide ng-repeat="slide in slides" active="slide.active">
+                            <img class="carousel" ng-src="{{slide.image}}">
+                            <div class="carousel-caption">
+                                <h4>Slide {{$index+1}}</h4>
+                            </div>
+                        </slide>
+                </carousel>
+        </div>
+    </div>
+
+    <div class="col-sm-2">
+
+    </div>
+</div>
+<div>
+    <div class="col-sm-2">
+
+    </div>
+    <div class="col-sm-8">
+        <h3 class="aboutMe">
+            Hey
+        </h3>
+    </div>
+    <div class="col-sm-2">
+
+    </div>
+</div>
